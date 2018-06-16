@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/track_card"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/padding_med"
+    android:paddingLeft="@dimen/padding_med"
+    android:paddingRight="@dimen/padding_med"
+    android:paddingTop="@dimen/padding_med">
+
+    <LinearLayout
+        android:layout_width="@dimen/no_spacing"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/podcast_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/podcast_title"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/podcast_title_size" />
+
+        <TextView
+            android:id="@+id/podcast_episode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingTop="@dimen/padding_med"
+            android:text="@string/episode_dummy_text"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/episode_text_size" />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/podcast_thumbnail"
+        android:layout_width="@dimen/thumb_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:scaleType="fitCenter"
+        android:src="@drawable/filler_orange" />
+
+
+</LinearLayout>

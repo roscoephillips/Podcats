@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/now_playing_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/now_playing_podcast_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/no_spacing"
+        android:layout_marginTop="@dimen/now_playing_spacing"
+        android:layout_weight="1"
+        android:text="@string/podcast_title"
+        android:textAlignment="center"
+        android:textSize="@dimen/podcast_title_size" />
+
+    <ImageView
+        android:id="@+id/now_playing_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/no_spacing"
+        android:layout_marginTop="@dimen/padding_med"
+        android:layout_weight="5"
+        android:adjustViewBounds="true"
+        android:paddingLeft="@dimen/padding_med"
+        android:paddingRight="@dimen/padding_med"
+        android:src="@drawable/filler_orange" />
+
+
+    <TextView
+        android:id="@+id/now_playing_episode_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/no_spacing"
+        android:layout_marginTop="@dimen/now_playing_spacing"
+        android:paddingRight="@dimen/padding_small"
+        android:paddingLeft="@dimen/padding_small"
+        android:layout_weight="1"
+        android:text="@string/episode_dummy_text"
+        android:textAlignment="center"
+        android:textSize="@dimen/now_playing_episode_text_size" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_med"
+        android:layout_marginRight="@dimen/padding_med"
+        android:paddingTop="@dimen/seekbar_spacing" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/no_spacing"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/backward_button"/>
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/cat_play"/>
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/forward_button"/>
+    </LinearLayout>
+
+
+</LinearLayout>

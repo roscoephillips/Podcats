@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Podcats</string>
+
+
+    <string name="smsk_title_name">Stuff Mew Should Know</string>
+
+    <!--Episode names for SMSK-->
+    <string name="smsk_ep_1">String Theory With Guest Meow Degrasse Tyson</string>
+    <string name="smsk_ep_2">SMSK Live: How Declawing Works</string>
+    <string name="smsk_ep_3">Dogs: Good Boy, Misunderstood Sycophant?</string>
+    <string name="smsk_ep_4">SMSK Selects: Knocking Stuff Off Tables</string>
+    <string name="smsk_ep_5">How Scratching  Posts Work</string>
+    <string name="smsk_ep_6">Sandboxes: Colossal Toilets?</string>
+    <string name="smsk_ep_7">Milk: Nature\'s Laxative</string>
+    <string name="smsk_ep_8">Cucumbers: Death on no Legs</string>
+    <string name="smsk_ep_9">Pulltab Cans: Humanity\'s Biggest Tease</string>
+    <string name="smsk_ep_10">How Fleas Work</string>
+    <string name="smsk_ep_11">How Purring Works</string>
+    <string name="smsk_ep_12">Catnip: The Safe Buzz</string>
+
+    <string name="this_ameowican_life_title_name">This Ameowican Life</string>
+    <string name="t_a_life_630">630: Things I Meown to Know</string>
+    <string name="t_a_life_631">631: So A Monkey and a Horse Walk Into A Field of Catnip</string>
+    <string name="t_a_life_632">632: Our Cat Condo Part 1</string>
+    <string name="t_a_life_633">633: Our Cat Condo Part 2</string>
+    <string name="t_a_life_634">634: Feline Error in Volatile Situations</string>
+    <string name="t_a_life_635">635: Microchip in my Scruff</string>
+    <string name="t_a_life_636">636: I Thought Hairballs Would Be Easier</string>
+    <string name="t_a_life_637">637: Words You Can\'t Meow</string>
+    <string name="t_a_life_638">638: Nom-Com</string>
+    <string name="t_a_life_639">639: In Doggo We Distrust</string>
+    <string name="t_a_life_640">640: Five Tabbies</string>
+    <string name="t_a_life_641">641: The Caterwauls</string>
+    <string name="t_a_life_642">642: The Impurrsible Dream</string>
+    <string name="t_a_life_643">643: Declawed If You Do...</string>
+    <string name="t_a_life_644">644: Random Acts of Hisstory</string>
+    <string name="t_a_life_645">645: My Effing First Ameowndment</string>
+    <string name="t_a_life_646">646: Secret of My Ninth Life</string>
+    <string name="t_a_life_647">647: NyaaDonna</string>
+    <string name="t_a_life_648">648: Unteachable Human</string>
+    <string name="podcast_title">Podcast Title</string>
+    <string name="episode_dummy_text">Podcast episode, meow meow meow, milk and cat food and stuff...</string>
+    <string name="now_playing">Now Playing</string>
+
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/podcast_parent_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@color/app_background"
+    android:orientation="horizontal"
+    tools:context="com.example.android.podcats.MainActivity">
+
+    <ImageView
+        android:id="@+id/smsk_image_view"
+        style="@style/podcast_view"
+        android:src="@drawable/smsk" />
+
+    <ImageView
+        android:id="@+id/this_ameowican_life_image_view"
+        style="@style/podcast_view"
+        android:src="@drawable/this_ameowican_life" />
+
+
+</LinearLayout>

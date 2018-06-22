@@ -2,15 +2,14 @@ package com.example.android.podcats;
 
 
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.os.Bundle;
-
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import static com.example.android.podcats.MainActivity.EPISODE_TITLE;
-import static com.example.android.podcats.MainActivity.PODCAST_ART;
 import static com.example.android.podcats.MainActivity.PODCAST_TITLE;
 
 public class NowPlaying extends AppCompatActivity {
@@ -19,6 +18,18 @@ public class NowPlaying extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.podcast_now_playing);
+
+        //Toolbar button to go back to MainActivity.
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.now_playing_toolbar);
+        myToolbar.setTitle(getString(R.string.now_playing));
+        myToolbar.setNavigationIcon(R.drawable.ic_arrow_back_black_24dp);
+        myToolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), MainActivity.class));
+            }
+
+        });
 
         Intent nowPlayingActivity = getIntent();
         String podcastTitle = nowPlayingActivity.getStringExtra(PODCAST_TITLE);

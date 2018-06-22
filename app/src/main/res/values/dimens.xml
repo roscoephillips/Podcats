@@ -9,5 +9,6 @@
     <dimen name="no_spacing">0dp</dimen>
     <dimen name="now_playing_episode_text_size">16sp</dimen>
     <dimen name="seekbar_spacing">4dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
     <dimen name="padding_small">8dp</dimen>
 </resources>

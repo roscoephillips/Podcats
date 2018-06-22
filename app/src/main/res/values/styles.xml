@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -14,6 +14,18 @@
         <item name="android:scaleType">fitStart</item>
         <item name="android:adjustViewBounds">true</item>
         <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- This is the toolbar so that one can navigate in the app. -->
+    <style name="default_toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:titleTextColor">@android:color/white</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark</item>
+
     </style>
 
 

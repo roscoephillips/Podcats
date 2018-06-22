@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/now_playing_linear_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/app_background"
     android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/now_playing_toolbar"
+        style="@style/default_toolbar"></android.support.v7.widget.Toolbar>
+
 
     <TextView
         android:id="@+id/now_playing_podcast_title"
@@ -33,9 +41,9 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/no_spacing"
         android:layout_marginTop="@dimen/now_playing_spacing"
-        android:paddingRight="@dimen/padding_small"
-        android:paddingLeft="@dimen/padding_small"
         android:layout_weight="1"
+        android:paddingLeft="@dimen/padding_small"
+        android:paddingRight="@dimen/padding_small"
         android:text="@string/episode_dummy_text"
         android:textAlignment="center"
         android:textSize="@dimen/now_playing_episode_text_size" />
@@ -54,22 +62,22 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/backward_button"/>
+            android:layout_weight="1"
+            android:src="@drawable/backward_button" />
 
         <ImageView
-            android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/cat_play"/>
+            android:layout_weight="1"
+            android:src="@drawable/cat_play" />
 
         <ImageView
-            android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/forward_button"/>
+            android:layout_weight="1"
+            android:src="@drawable/forward_button" />
     </LinearLayout>
 
 

@@ -4,6 +4,7 @@ package com.example.android.podcats;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -17,6 +18,18 @@ public class ThisAmeowicanActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tracklist_list);
+
+        //Toolbar button to go back to MainActivity.
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.tracklist_toolbar);
+        myToolbar.setTitle(getString(R.string.this_ameowican_life_title_name));
+        myToolbar.setNavigationIcon(R.drawable.ic_arrow_back_black_24dp);
+        myToolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), MainActivity.class));
+            }
+
+        });
 
 
         //Create a list of tracks for This Ameowican Life

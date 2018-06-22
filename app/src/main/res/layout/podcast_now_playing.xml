@@ -8,11 +8,9 @@
     android:background="@color/app_background"
     android:orientation="vertical">
 
-
     <android.support.v7.widget.Toolbar
         android:id="@+id/now_playing_toolbar"
         style="@style/default_toolbar"></android.support.v7.widget.Toolbar>
-
 
     <TextView
         android:id="@+id/now_playing_podcast_title"

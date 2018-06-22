@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tracklist_toolbar"
+        style="@style/default_toolbar"></android.support.v7.widget.Toolbar>
+
 <ListView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/tracklist"
@@ -10,4 +21,7 @@
     android:paddingRight="@dimen/padding_med"
     android:paddingTop="@dimen/padding_med"
     android:divider="@android:color/transparent"
-    android:dividerHeight="@dimen/padding_med"/>
+    android:dividerHeight="@dimen/padding_med">
+</ListView>
+
+</LinearLayout>
